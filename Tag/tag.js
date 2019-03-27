@@ -11,3 +11,13 @@ var special=document.getElementsByClassName("special");
  	special[i].style.color="yellow";
  }
 }
+function funcSelector(){
+	var specialOdd =document.querySelectorAll('li:nth-child(odd)');
+
+	var specialEven =document.querySelectorAll('li:nth-child(even)');
+	for(var i=0;i<specialOdd.length;i++)
+		specialOdd[i].style.backgroundColor="red";
+
+	for(var j=0;j<specialEven.length;j++)
+		specialEven[j].style.backgroundColor="blue";
+}
