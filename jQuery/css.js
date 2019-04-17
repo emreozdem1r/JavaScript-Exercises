@@ -15,3 +15,19 @@ $(document).ready(function(){
 		$("#div4").fadeIn(3000);
 	})
 })
+$(document).ready(function(){
+	$("#button3").click(function(){
+		$("#div1").fadeToggle(1000);
+		$("#div2").fadeToggle(1000);
+		$("#div3").fadeToggle(1000);
+		$("#div4").fadeToggle(1000);
+	})
+})
+$(document).ready(function(){
+	$("#button4").click(function(){
+		$("#div1").fadeTo("slow",0.1);
+		$("#div2").fadeTo("slow",0.3);
+		$("#div3").fadeTo("slow",0.6);
+		$("#div4").fadeTo("slow",0.9);
+	})
+})

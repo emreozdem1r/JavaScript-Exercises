@@ -1,0 +1,15 @@
+$(document).ready(function(){
+	$("#button1").click(function(){
+		$("#div3").animate({
+			left:'250px',
+			height:'+=250px',
+			width:'+=250px',
+			opacity:'0.5'
+		});
+	});
+});
+$(document).ready(function(){
+  $("#div2").click(function(){
+    $("#div1").slideDown("slow");
+  });
+});
