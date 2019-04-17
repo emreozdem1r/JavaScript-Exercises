@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("button").click(function(){
+	$("#button1").click(function(){
 		$("#01").hide(1000);
 	});
 
@@ -15,12 +15,29 @@ $(document).ready(function(){
 	})
 })
 $(document).ready(function(){
-	$("#03").mouseenter(function(){
+	$("#03").click(function(){
 		alert("Ustundesiniz!!");
 	})
 })
 $(document).ready(function(){
 	$("#button2").click(function(){
 		$("p").toggle(1000);
+	})
+})
+$(document).ready(function(){
+  $("#button3").click(function(){
+  		
+  		$("#div1").fadeOut(1000);
+  		$("#div2").fadeOut(1000);
+  		$("#div3").fadeOut(1000);
+  		$("#div4").fadeOut(1000);
+  });
+});
+$(document).ready(function(){
+	$("#button4").click(function(){
+		$("#div1").fadeIn(3000);
+		$("#div2").fadeIn(3000);
+		$("#div3").fadeIn(3000);
+		$("#div4").fadeIn(3000);
 	})
 })
